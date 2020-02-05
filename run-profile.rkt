@@ -1,3 +1,4 @@
+#!/usr/bin/env racket
 ; run-profile
 ; Copyright (C) 2020 Michael MacLeod
 ;
@@ -14,7 +15,6 @@
 ; with this program; if not, write to the Free Software Foundation, Inc.,
 ; 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
-#!/usr/bin/env racket
 #lang racket
 
 (require racket/cmdline
