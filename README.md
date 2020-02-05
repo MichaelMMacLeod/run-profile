@@ -13,7 +13,7 @@ run-profile.rkt works in roughly this manner:
 4. runs the command specified by the first occurrence of `--build-command <command>`
 5. runs the command specified by `--test-command <command>`
 6. sends the standard output of (5) to the command specified by `--filter-command <command>`
-7. appends the standard output of (6) to ./profile/YYYY-MM-dd HH:mm:ss/<commit>
+7. appends the standard output of (6) to ./profile/YYYY-MM-dd HH:mm:ss/commit
 8. repeats steps (5) through (7) `--number-of-tests <n>` times
 9. repeats steps (2) through (8) for the rest of the commits specified by `--commit <commit-or-tag>`
 
